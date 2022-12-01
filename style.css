@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-image: url(./assets/bg.png);
+    background-position: center center;
+    background-repeat: no-repeat no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.navbar {
+    background-color: #100F0F;
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.logo {
+    width: 100px;
+    margin-left: 75px;
+}
+
+.line {
+    position: absolute;
+    top: 10px;
+    left: 250px;
+    height: 50px;
+    color: #fff;
+    border-right: 1px solid #fff;
+}
+
+.list-item {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.grow-list {
+    position: absolute;
+    top: 25px;
+    left: 330px;
+}
+
+.button-small {
+    background-color: #BA0CC5;
+    color: #fff;
+    padding: 7px 20px;
+    outline: none;
+    border: 1px solid #BA0CC5;
+    border-radius: 7px;
+}
+
+.navbar div:last-child {
+    position: absolute;
+    top: 20px;
+    right: 75px;
+}
+
+.hero {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.hero-heading {
+    font-size: 70px;
+    font-weight: 600;
+    padding: 10px 200px;
+    color: #fff;
+    text-align: center;
+    line-height: 1.2;
+    letter-spacing: 1;
+}
+
+.hero-description {
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.button-large {
+    color: #fff;
+    background-color: #BA0CC5;
+    padding: 8px 20px;
+    outline: none;
+    border: 1px solid #BA0CC5;
+    border-radius: 7px;
+    font-size: 20px;
+    margin-top: 30px;
+    font-weight: 600;
+    letter-spacing: 1;
+}
